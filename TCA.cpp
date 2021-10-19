@@ -5,14 +5,15 @@
 */
 
 //
-//    FILE: TCA9548.cpp
-//  ORIGINAL AUTHOR: Rob Tillaart
-//  VERSION: 0.1.0
-//    DATE: 2021-03-16
-// PURPOSE: Library for TCA9548 I2C multiplexer
+//    FILE: TCA.cpp
+// AUTHOR larryl79 URL: https://github.com/larryl79/TCA
+// FORKED FROM: Rob Tillaart URL: https://github.com/RobTillaart/TCA9548
+// FORKED VERSION: 0.1.0
+// FORKED DATE: 2021-03-16
+// PURPOSE: Library for TCA I2C multiplexer
 //
 //  HISTORY:
-//  0.1.0   2021-03-16  initial version
+//  0.0.2   2021-10-18  initial version
 
 
 #include "TCA.h"
@@ -160,6 +161,5 @@ uint8_t TCA::getMaxCh() {
         }
       }
     }
-    else
-    { return _maxCh; }
+  return _maxCh;
 }
