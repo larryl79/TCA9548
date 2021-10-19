@@ -7,9 +7,10 @@
 #pragma once
 //
 //    FILE: TCA.h
-// Original AUTHOR: Rob Tillaart URL: https://github.com/RobTillaart/TCA
-// VERSION: 0.1.0
-//    DATE: 2021-03-16
+// AUTHOR larryl79 URL: https://github.com/larryl79/TCA
+// FORKED FROM: Rob Tillaart URL: https://github.com/RobTillaart/TCA9548
+// FORKED VERSION: 0.1.0
+// FORKED DATE: 2021-03-16
 // PURPOSE: Library for TCA I2C multiplexer
 //
 //     
@@ -18,7 +19,7 @@
 #include "Arduino.h"
 #include "Wire.h"
 
-#define TCA_LIB_VERSION    (F("0.0.2"))
+#define TCA_LIB_VERSION    (F("0.0.3"))
 
 
 class TCA
